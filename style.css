@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('gf/6057485.jpg'); /* Replace with your desired background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgba(8, 30, 128, 0.8);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #070a71;
+  color: rgb(235, 242, 240);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ... other CSS rules ... */
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.input-group input {
+  flex: 1 0 auto;
+}
+
+.login-container {
+  background-color: rgb(8,16,45); /* Dark blue color */
+
+}
+
+.login-container {
+  background-color: rgb(8,16,45); /* Dark blue background */
+  color: white; /* White text color */
+}
+
+.input-group input {
+  background-color: rgb(8,16,45); /* Dark blue input background */
+  color: white; /* White input text color */
+  border: 1px solid rgb(8,16,45); /* Dark blue border */
+}
